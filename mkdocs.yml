@@ -1,0 +1,41 @@
+site_name: Sostenibilitat en ASIX
+site_description: Sostenibilitat en l'entorn TIC
+
+nav:
+    - SOST: index.md
+    - 1- Sostenibilidad básica: u1/index.html
+    - 2- Reptes en les TIC: u2/index.html
+    - 3- ODS en les TIC: u3/index.html
+    - 4- Economia Circular: u4/index.html
+    - 5- Plans en empresa: u5/index.html
+
+extra_css:
+  - css/estil_SOST.css
+markdown_extensions:
+  - smarty
+  - toc:
+      permalink: true
+      toc_depth: 3
+  - sane_lists
+  - attr_list
+  - md_in_html
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+plugins:
+  #- mkdocs-jupyter
+  - glightbox
+theme: 
+  name: material
+  language: es
+  logo: img/logo.png
+  favicon: img/logo.ico
+  palette:
+    primary: custom
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.path
+    - toc.integrate
+    - content.code.copy
