@@ -1,0 +1,32 @@
+:root {
+    --md-primary-fg-color:        rgb(244, 111, 16);
+    --md-primary-fg-color--light: rgb(247, 209, 182);
+    --md-primary-fg-color--dark:  rgb(177, 76, 4);
+  }
+[data-md-color-scheme="slate"] {
+--md-hue: 210; 
+}
+body{
+    text-align: justify;
+}
+.c{
+    text-align: center;
+}
+h1{
+    text-align:center;
+    font-weight:bold;
+    color:rgb(177, 76, 4);
+    background-color:rgb(244, 210, 186);
+}
+h2{
+    text-align:center;
+    font-weight:bold;
+    color:#14a503;
+    background-color:rgb(202, 246, 190);
+}
+
+h3{
+    text-align:center;
+    font-weight:bold;
+    /*color:#9b41af;*/
+}
